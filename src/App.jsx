@@ -770,6 +770,7 @@ export default function Portfolio() {
               Hashim
             </h1>
             <p className="hero-role">
+              <span>Grade: "A"</span>
               <span>BS Computer Science / Web Developer</span> — building scalable
               full-stack applications with modern technologies and clean
               architecture.
