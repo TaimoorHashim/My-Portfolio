@@ -612,7 +612,7 @@ const projects = [
     icon: "🎓",
     name: "KUST Alumni Sense",
     desc: "A comprehensive alumni management and networking platform for Kohat University of Science & Technology, connecting graduates and fostering professional relationships.",
-    stack: ["React.js", "Node.js", "MongoDB", "Express.js"],
+    stack: ["Angular.js", "Node.js", "MongoDB", "Express.js"],
   },
   {
     num: "02",
@@ -644,7 +644,7 @@ const skillGroups = [
   {
     icon: "⚛️",
     name: "Frontend",
-    tags: ["React.js", "HTML5", "CSS3", "JavaScript"],
+    tags: ["React.js", "HTML5", "CSS3", "JavaScript", "Angular.js"],
   },
   { icon: "⚙️", name: "Backend", tags: ["Node.js", "Express.js", "REST APIs"] },
   { icon: "🗄️", name: "Databases", tags: ["MongoDB", "Mongoose", "MySQL"] },
@@ -770,7 +770,7 @@ export default function Portfolio() {
               Hashim
             </h1>
             <p className="hero-role">
-              <span>MERN Stack Web Developer</span> — building scalable
+              <span>BS Computer Science / Web Developer</span> — building scalable
               full-stack applications with modern technologies and clean
               architecture.
             </p>
@@ -841,7 +841,7 @@ export default function Portfolio() {
               {[
                 { num: "16+", label: "Projects Completed" },
                 { num: "4+", label: "Years of Coding" },
-                { num: "7+", label: "Technologies" },
+                { num: "10+", label: "Technologies" },
                 { num: "∞", label: "Lines of Code" },
               ].map((s, i) => (
                 <div className="stat-card fade-up" key={i}>
